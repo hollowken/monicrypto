@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoniCrypto</string>
+    <string name="action_change_currency">Change Currency</string>
+    <string name="daily_change">24h:</string>
+    <string name="week_change">7d:</string>
+    <string-array name="action_bar_spinner">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUB</item>
+    </string-array>
+</resources>
