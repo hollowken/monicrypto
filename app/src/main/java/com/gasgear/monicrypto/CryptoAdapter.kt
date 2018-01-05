@@ -35,7 +35,7 @@ class CryptoAdapter(private val cryptoList : ArrayList<Crypto>) : RecyclerView.A
         holder.name.text = crypto.name
         holder.symbol.text = crypto.symbol
 
-        var temp = ""
+        var temp: String
 
         when (crypto.currency) {
             "RUB" -> {
